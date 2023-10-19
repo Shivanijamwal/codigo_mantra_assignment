@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*-Header start-*/
+.custom-logo {
+  color: #f8f2f2;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.custon-bar {
+  border: 5px solid #000;
+  background: linear-gradient(
+    90deg,
+    #e7590a 8.78%,
+    #e7590a 8.79%,
+    rgba(12, 12, 11, 0.85) 89.94%
+  );
+  padding: 26px 50px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255) !important;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*-Contact Heading start-*/
+.contact-title {
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+  color: #000;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  background: white;
+  width: fit-content;
+  padding: 0 50px;
+}
+.title-heading {
+  background: radial-gradient(
+    circle at center,
+    rgba(12, 11, 10, 51.85),
+    #e7590a
+  );
+  position: relative;
+}
+
+.section-heading {
+  margin-bottom: 120px;
+}
+/*-Contact form start-*/
+.Form-section {
+  border: 1px solid #000;
+  background: rgba(210, 235, 205, 0.71);
+  box-shadow: -6px -4px 4px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 50px 70px 50px 50px;
+}
+.bg-color {
+  border: 1px solid #000;
+  background: #beadfa;
+  box-shadow: -14px 9px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 328.805px;
+  height: 140.964px;
+  position: absolute;
+  right: 30px;
+  padding: 18px 20px;
+}
+.bg-color.one {
+  top: -30px;
+}
+
+.bg-color.two {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-color.three {
+  bottom: -30px;
+}
+
+.form-control {
+  border-radius: 6.262px;
+  border: 1.044px solid #000;
+  background: #fcfbfb;
+  color: #aaa1a1;
+  font-family: "Inter";
+  font-size: 16.699px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.67px;
+  padding: 14px 20px;
+}
+
+p.custom-para {
+  color: #000;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+button.btn.custom-button {
+  background-color: #ff7f5b;
+  border-radius: 8px;
+  border: 1px solid #000;
+  color: #f8f2f2;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 40px;
+}
+
+button.btn.custom-button {
+  transform: translate(100%, 50%);
+  position: absolute;
+  left: 15%;
+}
+/*submiit modal */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  background: rgba(217, 217, 217, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  border: 3px solid #000;
+  background: #fffafa;
+  box-shadow: -10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+.modal-header {
+  border-bottom: 0px;
+}
+
+.modal-footer {
+  border-top: 0px;
+  justify-content: space-evenly;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 30px 30px;
+  color: #197d00;
+  font-family: "Inter";
+  font-size: 29.647px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.965px;
+}
+
+button.btn.modal-button {
+  background-color: #ff7f5b;
+  border-radius: 8px;
+  border: 1px solid #000;
+  color: #f8f2f2;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 40px;
+}
+/*footer */
+
+.custom-bg {
+  background: linear-gradient(
+    90deg,
+    #e7590a 26.26%,
+    rgba(12, 12, 11, 0.85) 72.64%
+  );
+  text-align: center;
+  padding: 40px;
+}
+
+p.para-footer {
+  color: #fcfbfb;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6;
+  letter-spacing: 3.6px;
+}
+.footer-const {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+/*--*/
+@media screen and (max-width: 1199px) {
+  .bg-color {
+    transform: none !important;
+    position: static;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  button.btn.custom-button {
+    transform: none !important;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .Form-section {
+    border: 1px solid #000;
+    background: rgba(210, 235, 205, 0.71);
+    box-shadow: -6px -4px 4px 0px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 15px;
+  }
+  .contact-title {
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    color: #000;
+    font-family: "Inter";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    background: white;
+    width: fit-content;
+    padding: 10px 19px;
+  }
+  .modal-dialog.modal-dialog-centered {
+    margin: 20px;
+    padding: 0px;
+  }
+  p.para-footer {
+    color: #fcfbfb;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 2.6; */
+    letter-spacing: 3.6px;
+  }
+  .bg-color {
+    border: 1px solid #000;
+    background: #beadfa;
+    box-shadow: -14px 9px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 328.805px;
+    height: 140.964px;
+    right: 30px;
+    position: static;
+    padding: 18px 20px;
+  }
+  .bg-color.two {
+    transform: translate(0px);
+  }
+  button.btn.custom-button {
+    transform: translate(0);
+    left: 15%;
+  }
+
+  .section-heading {
+    margin-bottom: 20px;
+  }
+  button.btn.custom-button {
+    transform: none !important;
+    position: static;
+  }
+}

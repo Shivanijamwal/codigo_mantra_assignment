@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us form</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid custon-bar me-3 ms-3">
+                <a class="navbar-brand custom-logo" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Round One:
+                                Practical</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="section-heading">
+        <div class="container-fluid">
+            <div class="title-heading">
+                <h1 class="contact-title">Contact Us Form</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="position-relative">
+            <div class="row">
+                <div class="col-xl-9">
+                    <div class="Form-section mb-5">
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-6">
+                                <label for="validationCustom01" class="form-label"></label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="First Name"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please Enter valid Name
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom02" class="form-label"></label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please Enter valid Name
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom03" class="form-label"></label>
+                                <input type="number" class="form-control" id="validationCustom03"
+                                    placeholder="Phone Number" required>
+                                <div class="invalid-feedback">
+                                    Please Enter valid Phone Number
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="validationCustom04" class="form-label"></label>
+                                <input type="text" class="form-control" id="validationCustom04" placeholder="Email"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please Enter valid Email
+                                </div>
+                            </div>
+
+                            <div class="mb-3 col-md-12">
+                                <label for="validationCustom05" class="form-label"></label>
+                                <textarea class="form-control" id="validationCustom05" rows="6"
+                                    placeholder="About Yourself"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn custom-button" type="submit" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"> Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info-section d-flex d-xl-block gap-3 flex-wrap">
+                <div class="bg-color d-flex align-items-center justify-content-left one">
+                    <p class="custom-para"><strong class="custom-size">Office Address:</strong>QUARK ATRIUM, Industrial
+                        Area, Sector 74,
+                        Sahibzada Ajit Singh
+                        Nagar, Punjab
+                        160072 </p>
+                </div>
+                <div class="bg-color d-flex align-items-center justify-content-left two">
+                    <p class="custom-para"><strong class="custom-size"> Mail :</strong>
+                        info@codigomantra.com</p>
+                </div>
+                <div class="bg-color d-flex align-items-center justify-content-left three">
+                    <p class="custom-para"><strong class="custom-size">Contact :</strong>
+                        +91 9915202212 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="w-100 footer-const">
+        <div class="custom-bg me-3 ms-3">
+            <div class="content text-center">
+                <h1 class="Assign-head text-white">
+                    Assignment
+                </h1>
+                <p class="para-footer">This is your round one for evaluating your skills</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    We received your message. Our team will contact you shortly with the solution to your query.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn modal-button" data-bs-dismiss="modal">Okah!!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>// Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()</script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
